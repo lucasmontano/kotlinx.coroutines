@@ -149,7 +149,7 @@ class RunningThreadStackMergeTest : DebugTestBase() {
                 "\tat java.lang.Thread.getStackTrace(Thread.java)\n" +
                 "\tat kotlinx.coroutines.debug.internal.DebugProbesImpl.enhanceStackTraceWithThreadDumpImpl(DebugProbesImpl.kt)\n" +
                 "\tat kotlinx.coroutines.debug.internal.DebugProbesImpl.dumpCoroutinesSynchronized(DebugProbesImpl.kt)\n" +
-                "\tat kotlinx.coroutines.debug.internal.DebugProbesImpl.dumpCoroutines(DebugProbesImpl.kt)\n" +
+                "\tat kotlinx.coroutines.debug.internal.DebugProbesImpl.dumpCoroutines\$kotlinx_coroutines_core(DebugProbesImpl.kt)\n" +
                 "\tat kotlinx.coroutines.debug.DebugProbes.dumpCoroutines(DebugProbes.kt)\n" +
                 "\tat kotlinx.coroutines.debug.StacktraceUtilsKt.verifyDump(StacktraceUtils.kt)\n" +
                 "\tat kotlinx.coroutines.debug.StacktraceUtilsKt.verifyDump\$default(StacktraceUtils.kt)\n" +

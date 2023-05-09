@@ -24,7 +24,7 @@ class DumpWithoutCreationStackTraceTest : DebugTestBase() {
                     "\tat java.lang.Thread.getStackTrace(Thread.java)\n" +
                     "\tat kotlinx.coroutines.debug.internal.DebugProbesImpl.enhanceStackTraceWithThreadDumpImpl(DebugProbesImpl.kt)\n" +
                     "\tat kotlinx.coroutines.debug.internal.DebugProbesImpl.dumpCoroutinesSynchronized(DebugProbesImpl.kt)\n" +
-                    "\tat kotlinx.coroutines.debug.internal.DebugProbesImpl.dumpCoroutines(DebugProbesImpl.kt)",
+                    "\tat kotlinx.coroutines.debug.internal.DebugProbesImpl.dumpCoroutines\$kotlinx_coroutines_core(DebugProbesImpl.kt)",
 
             "Coroutine \"coroutine#2\":DeferredCoroutine{Active}@383fa309, state: SUSPENDED\n" +
                     "\tat kotlinx.coroutines.debug.DumpWithoutCreationStackTraceTest\$createActiveDeferred\$1.invokeSuspend(DumpWithoutCreationStackTraceTest.kt)"
