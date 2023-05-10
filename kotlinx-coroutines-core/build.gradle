@@ -172,6 +172,10 @@ kotlin.sourceSets {
         implementation project(":android-unit-tests")
         implementation "org.openjdk.jol:jol-core:0.16"
     }
+
+    configureEach {
+        languageSettings.optIn("kotlinx.cinterop.ExperimentalForeignApi")
+    }
 }
 
 jvmTest {
